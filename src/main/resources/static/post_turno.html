@@ -14,11 +14,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="justify-content: flex-end !important; width: 100%;">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="display: flex !important; align-items: center; flex-direction: row;">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Gestión Odontologos
                     </a>
@@ -48,7 +48,7 @@
     </div>
 </nav>
 <div class="container">
-    <div class="row">
+    <div class="row" style="padding-top:2rem !important">
         <div class="col-sm-12" style="background-color:#e6fffa; padding:10px; border-radius:3px">
 
             <h3>Agregar Turno</h3>
@@ -73,9 +73,11 @@
                            name="id_odontologo" required></input>
                 </div>
 
+                <div style="display:flex; justify-content:center;">
+                    <button type="submit" class="btn btn-danger"
+                            id="btn-add-new-turno" style="margin:1rem">Guardar</button>
+                </div>
 
-                <button type="submit" class="btn btn-danger"
-                        id="btn-add-new-turno">Guardar</button>
             </form>
 
             <div id="response" style="display:none; margin-top:10px">

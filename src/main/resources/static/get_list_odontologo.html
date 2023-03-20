@@ -5,8 +5,7 @@
     <title>Listar Odontologos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <!--    <script type="text/javascript" src="/js/update_pelicula.js"></script>-->
-<!--    <script type="text/javascript" src="/js/delete_pelicula.js"></script>-->
+
 </head>
 <body>
 
@@ -17,11 +16,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="justify-content: flex-end !important; width: 100%;">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" style="display: flex !important; align-items: center; flex-direction: row;">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Gestión Odontologos
                     </a>
@@ -54,8 +53,8 @@
 <div class="container">
 
     <div class="container">
-        <div id="div_odontologo_table">
-            <h1>Odontologos</h1>
+        <div id="div_odontologo_table" style="padding: 2rem !important">
+            <h1 >Odontologos</h1>
             <div class="row col-md-12 table-responsive">
                 <table id="odontologoTable" class="table table-striped">
                     <thead>
